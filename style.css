@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/* common */
+body{
+  margin: 0;
+  background: #EBEB73;
+}
+
+h1{
+  margin: 0;
+
+}
+
+header p{
+  color: white ;
+  text-align: center;
+  margin-top: 32px;
+}
+
+
+
+
+h2{
+  margin: 0;
+  font-weight: normal;
+  font-size: 30px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+h3{
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+}
+
+p{
+  margin: 0;
+  color: white;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+  width: calc(100% - 64px);
+  box-sizing: border-box;
+  padding: 32px 0;
+}
+
+/* products */
+
+.Logodesigns{
+  margin-top: 32px;
+}
+
+.Logodesigns ul{
+  list-style: none;
+  margin: 32px 0 0;
+  padding: 0;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.Logodesigns li{
+  width: calc((100% - 32px - 32px) / 3);
+  box-sizing: border-box;
+}
+
+.Logodesigns img{
+  width: 100%;
+  height: auto;
+}
+
+.Logodesigns h3{
+  margin-top: 8px;
+}
+
+a{
+text-decoration: none;
+color: inherit;
+}
+
+a:hover{
+  opacity: .7;
+}
+
+
+/* footer */
+footer{
+  text-align: center;
+  margin-top: 32px;
+  color: white;
+}
+
+small{
+  font-size: 14px;
+}
+
+/* product */
+.Logodesigns{
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.Logodesigns div{
+  flex: 1;
+}
+
+.Logodesigns p{
+  margin-top: 16px;
+}
+
+.Logodesigns button{
+  margin-top: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.Logodesigns img{
+  width: 100%;
+  height: auto;
+}
+
